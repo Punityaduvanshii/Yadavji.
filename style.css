@@ -565,3 +565,35 @@ body {
     box-shadow:0 0 35px #ffd700;
     margin-bottom:15px;
 }
+.social-links{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin:25px 0;
+}
+
+.social-btn{
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    border-radius:15px;
+    font-weight:700;
+    color:white;
+    transition:0.3s;
+}
+
+.insta{
+    background:linear-gradient(45deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+.telegram{
+    background:linear-gradient(45deg,#0088cc,#00bfff);
+}
+
+.whatsapp{
+    background:linear-gradient(45deg,#25d366,#128c7e);
+}
+
+.social-btn:hover{
+    transform:scale(1.05);
+}
