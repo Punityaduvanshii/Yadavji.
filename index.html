@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>YADAVxGOD – Number & TG ID</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-glow"></div>
+            <div class="header-icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <h1>YADAV<span>xGOD</span></h1>
+            <p class="subtitle">⚡ Number & Telegram Intelligence ⚡</p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="number">
+                <i class="fas fa-phone"></i> Number
+            </button>
+            <button class="tab-btn" data-tab="telegram">
+                <i class="fab fa-telegram"></i> Telegram ID
+            </button>
+        </div>
+
+        <!-- Search Section - Number -->
+        <div class="search-section tab-content active" id="tab-number">
+            <div class="input-group">
+                <i class="fas fa-search input-icon"></i>
+                <input type="tel" id="numberInput" placeholder="Enter 10-digit number" maxlength="10" autocomplete="off">
+                <button id="searchBtn" class="search-btn">
+                    <i class="fas fa-bolt"></i>
+                </button>
+            </div>
+            <div class="quick-info">
+                <span><i class="fas fa-shield-alt"></i> Secure</span>
+                <span><i class="fas fa-bolt"></i> Instant</span>
+                <span><i class="fas fa-database"></i> Truecaller API</span>
+            </div>
+        </div>
+
+        <!-- Search Section - Telegram -->
+        <div class="search-section tab-content" id="tab-telegram">
+            <div class="input-group">
+                <i class="fab fa-telegram input-icon"></i>
+                <input type="text" id="tgInput" placeholder="Enter Telegram User ID" autocomplete="off">
+                <button id="tgSearchBtn" class="search-btn tg-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="quick-info">
+                <span><i class="fas fa-globe"></i> Global</span>
+                <span><i class="fas fa-bolt"></i> Real-time</span>
+                <span><i class="fas fa-database"></i> Telegram API</span>
+            </div>
+        </div>
+
+        <!-- Results Container -->
+        <div id="resultsContainer" class="results-container">
+            <div class="empty-state">
+                <i class="fas fa-ghost"></i>
+                <p>Enter a number or Telegram ID</p>
+                <p style="font-size:12px;color:rgba(255,255,255,0.08);margin-top:8px;">Powered by YADAVxGOD Engine</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Made with <i class="fas fa-heart"></i> by <span class="dev-name">уα∂αν נιι 🦚</span></p>
+            <p class="footer-small">(@ydvjii0) • Dual Engine ⚡</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
